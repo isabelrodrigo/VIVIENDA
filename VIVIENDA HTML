@@ -81,3 +81,86 @@ $DATO5 = (150 + 50 + 20) ;
 
 </body>
 </html>
+<?php
+//Definir datos por constantes
+define ("DATO1" , "EXPT-100.50");
+define ("DATO2" , 30700 );
+define ("DATO3" , "Torre Pacheco");
+define ("DATO4" , "Murcia");
+define ("DATO5" , (150 + 50 + 20) );
+?>
+
+<!DOCTYPE html>
+<html>
+<body>
+<table style="height: 38px; width: 88.4716%; border-collapse: collapse; border-style: hidden;" border="1">
+<tbody>
+<tr style="height: 38px;">
+<td style="width: 59.4836%; border-style: hidden; height: 38px;">
+<h4 style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ficha Cliente N&ordm;</h4>
+</td>
+<td style="width: 39.0655%; background-color: #c1c1b3; border-style: hidden; text-align: center; height: 38px;">&nbsp; <?= DATO1 ?></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="height: 231px; width: 98.841%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" border="1">
+<tbody>
+<tr>
+<td style="width: 47.9094%; border-style: hidden;">
+<h4><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Two-story_single-family_home.jpg/220px-Two-story_single-family_home.jpg" alt="" width="236" height="176" /></h4>
+</td>
+<td style="width: 56.4197%;">
+<h4 style="text-align: center;">Vivienda Unifamiliar de dos plantas, con:</h4>
+<blockquote>
+<ul style="list-style-type: disc;">
+<li style="text-align: left;">3 Dormitorios</li>
+<li style="text-align: left;">Cocina</li>
+<li style="text-align: left;">2 Ba&ntilde;os</li>
+<li style="text-align: left;">Sal&oacute;n comedor</li>
+<li style="text-align: left;">Terraz</li>
+</ul>
+</blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="height: 85px; width: 76.7756%; border-collapse: collapse; border-style: hidden; margin-left: auto; margin-right: auto;" border="1">
+<tbody>
+<tr>
+<td style="width: 43.0482%; border-style: hidden; text-align: center;">
+<ul>
+<li style="text-align: left;">Vivienda 150 m2</li>
+<li style="text-align: left;">Terrazas 50 m2</li>
+<li style="text-align: left;">Jard&iacute;n 250 m2</li>
+</ul>
+</td>
+<td style="width: 56.9518%;">
+<table style="border-collapse: collapse; width: 132.203%; height: 74px;" border="1">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 31.3905%; height: 24px;">C&Oacute;DIGO POSTAL</td>
+<td style="width: 37.7866%; height: 24px; background-color: #c1c1b3; text-align: center;"><?= DATO2 ?></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 31.3905%; height: 24px;">POBLACI&Oacute;N</td>
+<td style="width: 37.7866%; height: 24px; background-color: #c1c1b3; text-align: center;"><?= DATO3 ?></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 31.3905%; height: 23px;">PROVINCIA</td>
+<td style="width: 37.7866%; height: 23px; background-color: #c1c1b3; text-align: center;"><?= DATO4 ?></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<blockquote>
+<p>Total superficie vivienda, terrazas y jard&iacute;n&nbsp; &nbsp;<span style="background-color: #808080;"><span style="color: #ffffff;">&nbsp; &nbsp;<?= DATO5 ?>&nbsp; &nbsp;</span> </span>&nbsp; m2</p>
+</blockquote>
+
+</body>
+</html>
